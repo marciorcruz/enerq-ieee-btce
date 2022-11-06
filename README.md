@@ -1,2 +1,2 @@
 # enerq-ieee-btce
-Enerq IEEE BCTE
+ENERQ IEEE BCTE
