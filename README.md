@@ -1,5 +1,4 @@
-# enerq-ieee-btce
-ENERQ IEEE BCTE
+# ENERQ IEEE BCTE
 
 
 ### IEEE BCTE Demonstration Project
