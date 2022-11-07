@@ -12,9 +12,15 @@ Blockchain-based Energy Measurement Data Collection
 
 [Presentation](docs/PRESENTATION.pdf)
 
-[Description of the structures and variables of the](docs/Description%20of%20the%20structures%20and%20variables%20of%20the%20.docx)
+[Data Protocol](docs/PROTOCOL.pdf)
 
 [Landing Page Docs](https://app-enerq-ieee-btce.vercel.app/)
+
+
+### Apresentation
+
+[![ENERQ IEEE BCTE PRESENTATION](http://img.youtube.com/vi/SM1NCL2qPVQ/0.jpg)](http://www.youtube.com/watch?v=SM1NCL2qPVQ "ENERQ IEEE BTCE")
+
 
 ### Authors
 
