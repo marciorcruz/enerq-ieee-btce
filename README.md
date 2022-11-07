@@ -10,8 +10,7 @@ Blockchain-based Energy Measurement Data Collection
 ### Reference Links
 [Demo Application](http://www.naprei.prp.usp.br:3000)
 
-
-[Presentation](http://www.naprei.prp.usp.br:3000)
+[Presentation](docs/PRESENTATION.pdf)
 
 [Description of the structures and variables of the](docs/Description%20of%20the%20structures%20and%20variables%20of%20the%20.docx)
 
