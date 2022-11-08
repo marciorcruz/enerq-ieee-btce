@@ -10,6 +10,8 @@ Blockchain-based Energy Measurement Data Collection
 ### Reference Links
 [Demo Application](http://www.naprei.prp.usp.br:3000)
 
+![IHM Interface](img/mdc.png)
+
 [Presentation](docs/PRESENTATION.pdf)
 
 [Data Protocol](docs/PROTOCOL.pdf)
