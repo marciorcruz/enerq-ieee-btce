@@ -19,7 +19,10 @@ Blockchain-based Energy Measurement Data Collection
 
 ### Apresentation
 
-[![ENERQ IEEE BCTE PRESENTATION](http://img.youtube.com/vi/SM1NCL2qPVQ/0.jpg)](http://www.youtube.com/watch?v=SM1NCL2qPVQ "ENERQ IEEE BTCE")
+[![ENERQ IEEE BCTE PRESENTATION 1 ](http://img.youtube.com/vi/SM1NCL2qPVQ/0.jpg)](http://www.youtube.com/watch?v=SM1NCL2qPVQ "ENERQ IEEE BTCE")
+
+
+[![ENERQ IEEE BCTE PRESENTATION 2 ](http://img.youtube.com/vi/Ff1JiTnRdbI/0.jpg)](http://www.youtube.com/watch?v=Ff1JiTnRdbI "ENERQ IEEE BTCE")
 
 
 ### Authors
