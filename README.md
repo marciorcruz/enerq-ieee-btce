@@ -16,7 +16,7 @@ Blockchain-based Energy Measurement Data Collection
 
 [Data Protocol](docs/PROTOCOL.pdf)
 
-[Landing Page Docs](https://app-enerq-ieee-btce.vercel.app/)
+[Project evolution page and documents](https://app-enerq-ieee-btce.vercel.app/)
 
 
 ### Apresentation
