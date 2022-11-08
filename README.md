@@ -32,5 +32,3 @@ luizhenrique.rosa@alumni.usp.br
 
 Mr. Marcio Ribeiro Cruz
 marciorcruz@gmail.com
-
-
