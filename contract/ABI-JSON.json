@@ -1,0 +1,373 @@
+[
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "uint256",
+					"name": "deviceID",
+					"type": "uint256"
+				}
+			],
+			"name": "deviceEvent",
+			"type": "event"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "string",
+					"name": "serialnumber",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "typedevice",
+					"type": "uint256"
+				}
+			],
+			"name": "addOrUpdateDevice",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "id",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "deviceID",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"name": "devices",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "id",
+					"type": "uint256"
+				},
+				{
+					"internalType": "string",
+					"name": "serialnumber",
+					"type": "string"
+				},
+				{
+					"internalType": "bool",
+					"name": "activated",
+					"type": "bool"
+				},
+				{
+					"internalType": "uint256",
+					"name": "typedevice",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "interval",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "eventsCount",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "meteringsCount",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				}
+			],
+			"name": "getMeterData",
+			"outputs": [
+				{
+					"internalType": "string",
+					"name": "sn",
+					"type": "string"
+				},
+				{
+					"internalType": "bool",
+					"name": "state",
+					"type": "bool"
+				},
+				{
+					"internalType": "uint256",
+					"name": "inter",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "events",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "ms",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "index",
+					"type": "uint256"
+				}
+			],
+			"name": "getMeterEventData",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "id",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "typeobj",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "index",
+					"type": "uint256"
+				}
+			],
+			"name": "getMeterMeteringData",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "id",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "typeobj",
+					"type": "uint256"
+				},
+				{
+					"internalType": "string",
+					"name": "datavalue",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "typeevent",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"name": "setMeterEvent",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "id",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "interval",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"name": "setMeterInterval",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "ret",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "typemeter",
+					"type": "uint256"
+				},
+				{
+					"internalType": "string",
+					"name": "valuedata",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"name": "setMeteringData",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "id",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"name": "setPowerdown",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "ret",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "device",
+					"type": "address"
+				},
+				{
+					"internalType": "string",
+					"name": "serialnumber",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "timestamp",
+					"type": "uint256"
+				}
+			],
+			"name": "setPowerup",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "ret",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
